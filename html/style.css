@@ -1,0 +1,41 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: rgb(246, 226, 255);
+}
+
+#about {
+  background-color: #fff;
+  text-align: justify;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: rgb(171, 91, 208) !important;
+  border-color: rgb(171, 91, 208) !important;
+}
+
+.btn-primary:hover {
+  background-color: rgb(143, 79, 173) !important;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.contact .button {
+  color: plum;
+}
+
+footer {
+  background-color: plum;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card {
+  min-height: 400px;
+}
