@@ -9,8 +9,8 @@ if (!$profile) {
 $about = $conn->query("SELECT * FROM about ORDER BY id ASC LIMIT 1")->fetch_assoc();
 $about_text = $about['content'] ?? '';
 
-$organizations = $conn->query("SELECT * FROM organizations ORDER BY sort_order ASC, id ASC");
-$projects = $conn->query("SELECT * FROM projects ORDER BY sort_order ASC, id ASC");
+$organizations = $conn->query("SELECT * FROM organizations ORDER BY sort_order DESC, id DESC");
+$projects = $conn->query("SELECT * FROM projects ORDER BY sort_order DESC, id DESC");
 
 $flash = flash_get();
 $img_base = IMG_URL_PUBLIC;
