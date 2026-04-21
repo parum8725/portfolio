@@ -15,8 +15,6 @@ define('PHP_ROOT', dirname(__DIR__));
 define('UPLOAD_DIR', PHP_ROOT . '/img/');
 
 // URL prefix <img src="..."> sesuai lokasi pemanggil:
-// - dari /php/*.php          (index.php, login.php) → img/
-// - dari /php/admin/*.php    & /php/crud/*.php       → ../img/
 define('IMG_URL_PUBLIC', 'img/');
 define('IMG_URL_ADMIN',  '../img/');
 
